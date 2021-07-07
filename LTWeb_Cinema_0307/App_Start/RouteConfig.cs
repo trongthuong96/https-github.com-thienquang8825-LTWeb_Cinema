@@ -24,7 +24,7 @@ namespace LTWeb_Cinema_0307
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Movies", action = "Index", id = UrlParameter.Optional },
                 namespaces: new[] { "LTWeb_Cinema_0307.Areas.admin.Controllers" }
-            );
+            ); 
         }
     }
 }
