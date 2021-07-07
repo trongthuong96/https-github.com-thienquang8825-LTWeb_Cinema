@@ -11,6 +11,7 @@ using LTWeb_Cinema_0307.Models.CinemaEntities;
 
 namespace LTWeb_Cinema_0307.Areas.admin.Controllers
 {
+    [Authorize]
     public class ReservationsController : Controller
     {
         private readonly ApplicationDbContext db = new ApplicationDbContext();
